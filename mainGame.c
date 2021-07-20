@@ -210,6 +210,7 @@ int temploInicial(const char* itensTemploInicial[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(1);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -217,12 +218,13 @@ int temploInicial(const char* itensTemploInicial[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(1);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int patio(const char* itensPatio[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -241,6 +243,7 @@ int patio(const char* itensPatio[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(7);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -248,12 +251,13 @@ int patio(const char* itensPatio[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(7);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int quarto(const char* itensQuarto[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -272,6 +276,7 @@ int quarto(const char* itensQuarto[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(3);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -279,12 +284,13 @@ int quarto(const char* itensQuarto[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(3);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int cozinha(const char* itensCozinha[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -303,6 +309,7 @@ int cozinha(const char* itensCozinha[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(2);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -310,12 +317,13 @@ int cozinha(const char* itensCozinha[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(2);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int portaoDoCastelo(const char* itensPortaoDoCastelo[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -334,6 +342,7 @@ int portaoDoCastelo(const char* itensPortaoDoCastelo[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(4);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -341,12 +350,13 @@ int portaoDoCastelo(const char* itensPortaoDoCastelo[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(4);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int montanha(const char* itensMontanha[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -365,6 +375,7 @@ int montanha(const char* itensMontanha[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(8);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -372,12 +383,13 @@ int montanha(const char* itensMontanha[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(8);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int pantano(const char* itensPantano[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -396,6 +408,7 @@ int pantano(const char* itensPantano[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(9);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -403,12 +416,13 @@ int pantano(const char* itensPantano[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(9);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int escadaria(const char* itensEscadaria[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -427,6 +441,7 @@ int escadaria(const char* itensEscadaria[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(5);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -434,12 +449,13 @@ int escadaria(const char* itensEscadaria[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(5);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int trilha(const char* itensTrilha[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -458,6 +474,7 @@ int trilha(const char* itensTrilha[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(6);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -465,12 +482,13 @@ int trilha(const char* itensTrilha[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(6);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int caverna(const char* itensCaverna[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -489,6 +507,7 @@ int caverna(const char* itensCaverna[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(2);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -496,12 +515,13 @@ int caverna(const char* itensCaverna[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(2);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int jardim(const char* itensJardim[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -520,6 +540,7 @@ int jardim(const char* itensJardim[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(3);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -527,12 +548,13 @@ int jardim(const char* itensJardim[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(3);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int cidadeDoTopo(const char* itensCidadeDoTopo[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -551,6 +573,7 @@ int cidadeDoTopo(const char* itensCidadeDoTopo[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(0);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -558,12 +581,13 @@ int cidadeDoTopo(const char* itensCidadeDoTopo[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(0);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 int deserto(const char* itensDeserto[10]){
 	int loop = 1, pegar = 0, localEscolhido;
@@ -582,6 +606,7 @@ int deserto(const char* itensDeserto[10]){
 						break;
 					case 2:
 						localEscolhido = escolherDirecao(0);
+						loop = 0;
 						break;
 					default:
 						printf("Insira uma opcao valida");
@@ -589,12 +614,13 @@ int deserto(const char* itensDeserto[10]){
 				break;
 			case 2:
 				localEscolhido = escolherDirecao(0);
+				loop = 0;
 				break;
 			default:
 				printf("\nInsira uma opcao valida\n");
 		}
-		return localEscolhido;
 	}
+	return localEscolhido;
 }
 
 int escolherDirecao(int possibilidades){
@@ -709,7 +735,7 @@ int escolherDirecao(int possibilidades){
 }
 
 void exibirItens(const char* itens[10]){
-	int i, j;
+	int i;
 	printf("\nVoce encontrou: \n");
 	for(i=0; i<sizeof(itens); i++){
 		printf("%s\n", itens[i]);
@@ -717,10 +743,10 @@ void exibirItens(const char* itens[10]){
 }
 
 void pegarItem(const char* itens[10]){
-	int i, j, itemRemovido;
+	int i, itemRemovido;
 	printf("\nQual item deseja pegar?\n");
 	scanf("%d", &itemRemovido);
-	for(i = itemRemovido-1; i < 10 - 1; i++) {
+	for(i = itemRemovido-1; i < (10 - 1); i++) {
 		itens[i] = itens[i+1];
 	}
 }
