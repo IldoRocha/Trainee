@@ -85,7 +85,7 @@ int main(){
 			break;
 	}
 	
-	while(movimentar != 0){
+	whille(movimentar != 0){
 		switch(movimentar){
 			case 1:
 				switch (ultimoMovimento){
