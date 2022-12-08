@@ -84,6 +84,7 @@ int main(){
 		default:
 			break;
 	}
+	
 	while(movimentar != 0){
 		switch(movimentar){
 			case 1:
